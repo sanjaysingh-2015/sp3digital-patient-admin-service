@@ -1,0 +1,34 @@
+# N-Mod EXT Indexing Ignore File
+# Add patterns to exclude files and folders from indexing
+# Uses .gitignore syntax
+
+# Common directories to ignore
+node_modules/
+.git/
+.vscode/
+dist/
+build/
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Images and media
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.ico
+*.mp3
+*.mp4
+*.mov
+*.avi
+
+# Add your custom patterns below
